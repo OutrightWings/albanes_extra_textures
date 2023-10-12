@@ -21,7 +21,6 @@ minecraft {
     copyIdeResources = true
 
     runs {
-        // applies to all the run configs below
         configureEach {
             workingDirectory project.file("run/${it.name}")
             property 'forge.logging.markers', 'REGISTRIES'
