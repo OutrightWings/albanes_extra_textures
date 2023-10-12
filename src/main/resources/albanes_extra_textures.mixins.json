@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "com.outrightwings.albanes_extra_textures.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "albanes_extra_textures.refmap.json",
+  "mixins": [
+
+  ],
+  "client": [
+    "HorsePatternMixin"
+  ],
+  "minVersion": "0.8"
+}
